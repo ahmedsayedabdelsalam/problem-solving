@@ -1,0 +1,19 @@
+{
+  "name": "codesignal-scraper",
+  "version": "1.0.0",
+  "description": "scrap my solutions from codesignal",
+  "main": "index.cjs",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^10.0.0",
+    "mkdirp": "^1.0.4",
+    "ora": "^6.0.0",
+    "puppeteer": "^10.2.0"
+  },
+  "devDependencies": {}
+}
